@@ -1,0 +1,28 @@
+{
+  "name": "razormd",
+  "version": "0.0.1",
+  "authors": [
+    "Gerhard Richard Edens <richard@aanzee.nl>"
+  ],
+  "description": "RazorMD is a Model Driven Development environment for NodeJS",
+  "main": "razormd.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "razormd",
+    "mdd"
+  ],
+  "license": "MIT",
+  "homepage": "http://richardedens.github.io/razormd",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mustache.js": "mustache#~2.1.3"
+  }
+}

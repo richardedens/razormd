@@ -1,0 +1,31 @@
+{
+  "name": "razormd",
+  "version": "0.0.1",
+  "description": "RazorMD is a Model Driven Development environment for NodeJS",
+  "main": "razormd.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardedens/razormd.git"
+  },
+  "keywords": [
+    "razormd",
+    "mdd"
+  ],
+  "author": "Gerhard Richard Edens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardedens/razormd/issues"
+  },
+  "homepage": "https://github.com/richardedens/razormd",
+  "scripts": {
+    "postinstall": "bower cache clean && bower install"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "mongoose": "^4.1.3",
+    "xml2js": "^0.4.10"
+  }
+}
