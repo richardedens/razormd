@@ -4,7 +4,7 @@
   "description": "RazorMD is a Model Driven Development environment for NodeJS",
   "main": "razormd.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "postinstall": "bower cache clean && bower install"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,9 @@
     "url": "https://github.com/richardedens/razormd/issues"
   },
   "homepage": "https://github.com/richardedens/razormd",
-  "scripts": {
-    "postinstall": "bower cache clean && bower install"
-  },
   "dependencies": {
+    "MD5": "^1.3.0",
+    "async": "^1.4.2",
     "lodash": "^3.10.1",
     "mongoose": "^4.1.3",
     "xml2js": "^0.4.10"
